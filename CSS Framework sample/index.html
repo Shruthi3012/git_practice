@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>Progress Bar</h1>
+    <div class="cm-progress_circle_bar_container">
+        <div class="cm-progress_bar cm-progress_bar_circle1"></div>
+        <div class="cm-progress_bar cm-progress_bar_circle2"></div>
+        <div class="cm-progress_bar cm-progress_bar_circle3"></div>
+    </div>
+    
+ <br><br><br>
+ 
+
+ <div class="cm-progress_circle_bar_container cm-progess_wave_width">
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave1"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave2"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave3"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave4"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave5"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave6"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave7"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave8"></div>
+  
+
+    </div>
+    <br><br><br>
+   <div class = "cm-progress_rectangle_container">
+       <div class = "cm-progress_rectangle cm-rectangle1"></div>
+       <div class = "cm-rectangle2 cm-progress_rectangle"></div>
+       <div class = "cm-rectangle3 cm-progress_rectangle"></div>
+       <div class = "cm-rectangle4 cm-progress_rectangle"></div>
+       <div class = "cm-rectangle5 cm-progress_rectangle"></div>
+   </div>
+   <br><br>
+   <div class="cm-progress_circle_bar_container cm-progress_color_wave_width">
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave1"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave2"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave3"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave4"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave5"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave6"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave7"></div>
+    <div class = "cm-progress_bar_wave cm-prograss_bar_wave8"></div>
+  
+
+    </div>
+<br><br>
+  <h1> Sliders </h1>
+   <div class = "cm-slider-square">
+        <input type = "range" min = "0" max = "100" value ="20" class = "cm-slider-square" id = "cm-slider-square" oninput = "slidersquareval()">
+        <div class = "cm-slider-value" id = "cm-slider-square-value">20</div>
+    </div>
+<br>
+    <div class = "cm-slider-square cm-slider-rectangle">
+        <input type = "range" min = "0" max = "100" value ="20" class = "cm-slider-square" id = "cm-slider-rectangle" oninput = "sliderrectangleval()">
+        <div class = "cm-slider-value" id = "cm-slider-rectangle-value">20</div>
+    </div>
+    <br><br>
+    <div class = "cm-slider-container">
+        <input type = "range" id = "cm-my-slider" min = "0" max = "100" value = "50" oninput = "sliderval()">
+        <div id = "cm-slider-value" class = "cm-slider-value">50</div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>
